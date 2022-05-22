@@ -1,6 +1,6 @@
 using System.Management;
 
-namespace AntiAnalysis
+namespace AntiVirtual
 {
     internal sealed class VirtualBox
     {
