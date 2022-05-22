@@ -4,9 +4,6 @@ namespace AntiAnalysis
 {
     internal sealed class VirtualBox
     {
-        /// <summary>
-        /// Returns true if the file is running in VirtualBox or VmWare; otherwise returns false
-        /// </summary>
         public static bool Check()
         {
             using (ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher("Select * from Win32_ComputerSystem"))
